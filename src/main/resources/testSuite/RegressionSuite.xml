@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+	<listeners>
+		<listener class-name="helper.listener.RetryListener"></listener>
+		<listener class-name="helper.listener.ExtentListener"></listener>
+	</listeners>
+	<test name = "Take SCreenshot">
+		<classes>
+			<class name = "Tests.Test1">
+			</class>
+		</classes>
+	</test>
+</suite>
